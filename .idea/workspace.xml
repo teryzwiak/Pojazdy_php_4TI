@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="078ba379-dcbf-4c21-b9cd-da43c4adcc96" name="Default Changelist" comment="" />
+    <list default="true" id="078ba379-dcbf-4c21-b9cd-da43c4adcc96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/search_engine/search_rej.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_engine/rej.php" beforeDir="false" afterPath="$PROJECT_DIR$/search_engine/rej.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search_engine/town.php" beforeDir="false" afterPath="$PROJECT_DIR$/search_engine/town.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +92,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/search_engine" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\pojazdy\Pojazdy_php_4TI\search_engine" />
+    </key>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -100,7 +110,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:MySQL - pojazdy@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@54f91f73" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@78259daa" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -126,11 +136,24 @@
       <workItem from="1608277573706" duration="3569000" />
       <workItem from="1608307967760" duration="729000" />
       <workItem from="1608406583978" duration="276000" />
+      <workItem from="1608491845844" duration="606000" />
     </task>
+    <task id="LOCAL-00001" summary="town">
+      <created>1608492049302</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608492049302</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="town" />
+    <option name="LAST_COMMIT_MESSAGE" value="town" />
   </component>
   <component name="WindowStateProjectService">
     <state x="987" y="129" key="#PHP" timestamp="1607678699804">
@@ -141,6 +164,10 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="872" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.1440.900/0.0.2560.1080@0.0.2560.1080" timestamp="1607681733748" />
+    <state x="905" y="133" key="CommitChangelistDialog2" timestamp="1608492048190">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="905" y="133" key="CommitChangelistDialog2/2560.0.1440.900/0.0.2560.1080@0.0.2560.1080" timestamp="1608492048190" />
     <state x="1060" y="294" key="FileChooserDialogImpl" timestamp="1607676361671">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
