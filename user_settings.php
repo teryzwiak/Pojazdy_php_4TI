@@ -17,6 +17,7 @@ session_start();
     Zalogowano jako: <?php echo $_SESSION['login'];?><br/>
     Twój email to: <?php echo $_SESSION['email'];?><br/>
     Email jawny: <?php echo $_SESSION['jawny'];?><br/>
+    Dodaj wypadek: <a href="admin/db_modification">LINK</a>
 </div>
 <div class="content-left">
     <h2>Znajdź wypadek/pojazd:</h2>

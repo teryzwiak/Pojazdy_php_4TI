@@ -32,4 +32,9 @@ if($how>0)
 
     <input type="submit" value="Szukaj">
 </form>
+<form action="search_rej.php" method="post">
+    <label for="rej">Wpisz rejestracje:</label>
+    <input type="text" name="rej">
+    <input type="submit" value="Szukaj">
+</form>
 
