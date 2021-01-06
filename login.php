@@ -15,6 +15,8 @@ else{
     $login = $_POST['login'];
     $haslo = $_POST['pass'];
 
+    $haslo = htmlentities($haslo, ENT_QUOTES, "UTF-8");
+    $login = htmlentities($login, ENT_QUOTES, "UTF-8");
     $query = "SELECT * FROM uzytkownicy WHERE login='$login' AND haslo='$haslo'";
 
     if($result = @$con->query($query))
