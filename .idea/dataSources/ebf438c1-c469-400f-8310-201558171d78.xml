@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="MySQL - pojazdy@localhost">
-  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.17">
+  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.15">
     <root id="1">
       <ServerVersion>10.4.17</ServerVersion>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -20,6 +20,7 @@
     </schema>
     <schema id="6" parent="1" name="pojazdy">
       <Current>1</Current>
+      <Visible>1</Visible>
       <Collation>utf8_polish_ci</Collation>
     </schema>
     <schema id="7" parent="1" name="test">
@@ -1371,6 +1372,7 @@
     </key>
     <foreign-key id="345" parent="332" name="samochody_ibfk_1">
       <ColNames>wlasciciel</ColNames>
+      <RefSchemaName>pojazdy</RefSchemaName>
       <RefTableName>wlasciciele</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
@@ -1471,6 +1473,7 @@
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="363" parent="336" name="data">
@@ -1524,11 +1527,13 @@
     </key>
     <foreign-key id="372" parent="336" name="wypadki_ibfk_2">
       <ColNames>rejestracja</ColNames>
+      <RefSchemaName>pojazdy</RefSchemaName>
       <RefTableName>samochody</RefTableName>
       <RefColNames>rejestracja</RefColNames>
     </foreign-key>
     <foreign-key id="373" parent="336" name="wypadki_ibfk_1">
       <ColNames>wojewodztwo</ColNames>
+      <RefSchemaName>pojazdy</RefSchemaName>
       <RefTableName>wojewodztwa</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>

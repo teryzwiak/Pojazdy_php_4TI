@@ -11,11 +11,20 @@ session_start();
 </head>
 <body>
 
-<div class="header"><br/>
-    <h1>Baza pojazdów i ich wypadki</h1> <br/>
+<div class="topnav">
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
 </div>
-<div class="content">
 
+<div class="content">
+    <h2>CSS Template</h2>
+    <p>A topnav, content and a footer.</p>
 </div>
+
+<div class="footer">
+    <p>Footer</p>
+</div>
+
 </body>
 </html>
