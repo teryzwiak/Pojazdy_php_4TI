@@ -13,8 +13,13 @@ session_start();
 
 <div class="topnav">
     <p><strong><a href="index.php">BAZA WYPADKÓW</a></strong></p>
+    <?php
+    isset($_SESSION['logged']);
+    {
+    ?>
     <a href="#">Zarejestruj się</a>
     <a href="loginpage.php">Zaloguj się</a>
+    <?php }; ?>
 </div>
 
 <div class="content">
