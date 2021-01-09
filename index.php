@@ -7,23 +7,27 @@ session_start();
 <head>
     <meta charset="UTF-8"/>
     <title>Pojazdy</title>
-    <link rel="stylesheet" href="styl1.css" >
+    <link rel="stylesheet" href="csstyle.css" >
 </head>
 <body>
 
 <div class="topnav">
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
+    <p><strong>BAZA WYPADKÓW</strong></p>
+    <a href="#">Kontakt</a>
+    <a href="#">Zarejestruj się</a>
+    <a href="loginpage.php">Zaloguj się</a>
 </div>
 
 <div class="content">
-    <h2>CSS Template</h2>
-    <p>A topnav, content and a footer.</p>
+    <h2>Znajdź wypadek po pojedzie lub miejscowości</h2>
+    <p>Zaloguj się po więcej.</p>
+    <img src="assets/crash.jpg" alt="wypadek" width="1300" height="600">
 </div>
 
+
+
 <div class="footer">
-    <p>Footer</p>
+    <p>MADE BY Patryk Józwiak</p>
 </div>
 
 </body>
