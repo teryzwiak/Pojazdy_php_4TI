@@ -13,7 +13,6 @@ session_start();
 
 <div class="topnav">
     <p><strong><a href="index.php">Baza wypadków</a></strong></p>
-    <a href="#">Kontakt</a>
     <a href="#">Zarejestruj się</a>
     <a href="loginpage.php">Zaloguj się</a>
 </div>

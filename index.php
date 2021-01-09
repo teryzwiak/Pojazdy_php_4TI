@@ -12,8 +12,7 @@ session_start();
 <body>
 
 <div class="topnav">
-    <p><strong>BAZA WYPADKÓW</strong></p>
-    <a href="#">Kontakt</a>
+    <p><strong><a href="index.php">BAZA WYPADKÓW</a></strong></p>
     <a href="#">Zarejestruj się</a>
     <a href="loginpage.php">Zaloguj się</a>
 </div>
