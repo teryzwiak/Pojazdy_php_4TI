@@ -4,6 +4,7 @@
 }
 body {
     margin: 0;
+    background-color: #ddd;
 }
 .topnav{
     overflow: hidden;
@@ -13,10 +14,12 @@ body {
     float: left;
     display: block;
     text-align: center;
-    padding-left: 5px;
+    padding-left: 14px;
     color: #F2F2F2;
 }
 .topnav a {
+    position: relative;
+    top: 15px;
     float: right;
     display: block;
     color: #F2F2F2;
@@ -28,6 +31,10 @@ body {
     background-color: #ddd;
     color: black;
 }
+.topnav strong{
+    position: relative;
+    top: -15px;
+}
 .content{
     background-color: #ddd;
     padding: 10px;
@@ -35,14 +42,23 @@ body {
 .column-left{
     float: left;
     width: 30%;
+    padding: 100px;
 }
 .column-right {
     width: 70%;
+    float: right;
 
 }
-img{
-    border: 50px solid black;
+.column-right img{
+    border: 5px solid #333333;
     float: right;
+}
+.form-content{
+    border: 5px solid #333333 ;
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 50%;
 }
 .footer{
     background-color: #f1f1f1;
