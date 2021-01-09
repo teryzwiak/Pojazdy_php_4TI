@@ -7,7 +7,7 @@ session_start();
 <head>
     <meta charset="UTF-8"/>
     <title>Pojazdy</title>
-    <link rel="stylesheet" href="csstyle.css" >
+    <link rel="stylesheet" href="../csstyle.css" >
 </head>
 <body>
 
@@ -16,10 +16,12 @@ session_start();
     <?php
     isset($_SESSION['logged']);
     {
+        echo "<a href=\"#\">Konto</a>";
+
+ };
     ?>
-    <a href="#">Zarejestruj się</a>
-    <a href="loginpage.php">Zaloguj się</a>
-    <?php }; ?>
+
+
 </div>
 
 <div class="content">
