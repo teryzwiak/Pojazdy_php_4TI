@@ -22,6 +22,7 @@ session_start();
         Twój email to: <?php echo $_SESSION['email'];?><br/>
         Email jawny: <?php echo $_SESSION['jawny'];?><br/>
         Dodaj wypadek: <a href="admin/adminpanel.php">LINK</a>
+        <a href="admin/modyfikacja.php">Modyfikacja danych w bazie</a>
     </div>
     <br/><br/>
     <div class="column-left">
