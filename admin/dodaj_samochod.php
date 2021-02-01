@@ -25,10 +25,32 @@ wlasciciel($conn);
     <p>Podaj marke:</p>
     <input type="text" name="mar" />
 
-    <input type="submit" value="Wyślij" />
+    <input type="submit" value="Wyślij"  />
 
     </form>
 <?php
+
+
+if (isset($_POST['mar']))
+{
+    $rej = $_POST['rej'];
+    $rcz = $_POST['rcz'];
+    $datrej = $_POST['datrej'];
+    $kol = $_POST['kol'];
+    $mar = $_POST['mar'];
+    $id = $_POST['id'];
+
+    $query1 = $conn->query("INSERT INTO samochody VALUES (rejestracja='$rej',rocznik='$rcz',wlasciciel='$id',data_rej='$datrej',kolor='$kol',marka='$mar')");
+
+    if ($query1)
+    {
+        echo "Dane zostały poprawnie wprowadzone";
+    }
+    else
+    {
+        echo "Napotkano na błąd podczas wprowadzania danych";
+    }
+}
 
 $conn->close();
 ?>
