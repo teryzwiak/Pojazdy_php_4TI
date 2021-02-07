@@ -1,5 +1,23 @@
 <?php
 session_start();
+if (isset($_SESSION['slogin']))
+{
+require_once "../db.php";
+$con = @new mysqli($host, $db_user, $db_password, $db_name);
+if($con->connect_errno!=0)
+{
+    echo $con->connect_errno;
+}
+else {
+    $login = $_SESSION['slogin'] ;
+    $loginusera = $_SESSION['loginusera'] ;
+    $query = "UPDATE uzytkownicy SET login='$login' WHERE login='$login';";
+    if ($result = @$con->query($query)) {
+    }
+}
+
+    $con->close();
+}
 ?>
 
 <!DOCTYPE html>

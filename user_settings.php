@@ -40,10 +40,23 @@ session_start();
     </div>
 
 </div>
+<br/>
+<div class="content">
+    Zmień login:
+    <form method="post" action="user_settings.php">
+        <label for="login">Podaj nowy login: </label>
+        <input type="text" name="login">
+        <input type="submit" value="Zmień">
+    </form>
+    <?php
+    if (isset($_POST['login'])){
+        echo "Twój nowy login to:".$_POST['login'];
+        $_SESSION['slogin']=$_POST['login'];
+        echo '<form method="POST" action="loginpage.php"><input type="submit" value="Zatwierdź"></form>';
+    }
 
-
-
-
+    ?>
+</div>
 </body>
 </html>
 

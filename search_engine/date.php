@@ -32,4 +32,5 @@ else{
 
 <input type="submit" value="Szukaj">
 </form>
-
+<?php
+?>
