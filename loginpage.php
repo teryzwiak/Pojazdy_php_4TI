@@ -10,9 +10,10 @@ if($con->connect_errno!=0)
 }
 else {
     $login = $_SESSION['slogin'] ;
-    $loginusera = $_SESSION['loginusera'] ;
-    $query = "UPDATE uzytkownicy SET login='$login' WHERE login='$login';";
+    $loginusera = $_SESSION['login'] ;
+    $query = "UPDATE uzytkownicy SET login='$login' WHERE login='$loginusera';";
     if ($result = @$con->query($query)) {
+        echo "Login zmieniony";
     }
 }
 
