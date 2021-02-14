@@ -57,6 +57,12 @@ session_start();
 
     ?>
 </div>
+<div class="content">
+    <form method="post" action="user_delete.php">
+        <label for="del" style="color: red">Usuń konto</label>
+        <input type="submit" value="Usuń" style="color: red">
+    </form>
+</div>
 </body>
 </html>
 
