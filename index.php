@@ -16,7 +16,8 @@ session_start();
     <a href="#">Zarejestruj się</a>
     <a href="loginpage.php">Zaloguj się</a>
 </div>
-
+<?php if(isset($_SESSION['blad']))
+{echo $_SESSION['blad'];};?>
 <div class="content">
     <h2>Znajdź wypadek po pojedzie lub miejscowości</h2>
     <p>Zaloguj się po więcej.</p>

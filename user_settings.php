@@ -52,7 +52,8 @@ session_start();
     if (isset($_POST['login'])){
         echo "Twój nowy login to:".$_POST['login'];
         $_SESSION['slogin']=$_POST['login'];
-        echo '<form method="POST" action="loginpage.php"><input type="submit" value="Zatwierdź"></form>';
+        echo '<form method="POST" action="loginpage.php">
+<input type="submit" value="Zatwierdź"></form>';
     }
 
     ?>

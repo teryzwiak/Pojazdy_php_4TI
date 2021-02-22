@@ -47,7 +47,8 @@ else {
             <input type="password" name="pass"> <br/><br/>
             <input type="submit" value="Zaloguj się">
         </form>
-        <?php if(isset($_SESSION['blad']))echo $_SESSION['blad'];?>
+        <?php if(isset($_SESSION['blad']))
+        {echo $_SESSION['blad'];};?>
         </div>
     </div>
 
