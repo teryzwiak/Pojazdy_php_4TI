@@ -7,7 +7,7 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <title>Pojazdy</title>
-    <link rel="stylesheet" href="csstyle.css" >
+    <link rel="stylesheet" href="../csstyle.css" >
 </head>
 <body>
 

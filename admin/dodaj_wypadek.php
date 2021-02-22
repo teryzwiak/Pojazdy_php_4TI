@@ -39,8 +39,7 @@ wojewodztwo($conn);
 
     </form>
 <?php
-if (isset($_POST['miasto']))
-{
+if (isset($_POST['miasto'])) {
     $rej = $_POST['rej'];
     $woj = $_POST['woj'];
     $data = $_POST['data'];
@@ -50,12 +49,13 @@ if (isset($_POST['miasto']))
 
     $result = $conn->query("INSERT INTO wypadki (data, rejestracja, winny, strata, miejsce, wojewodztwo) VALUES ('$data', '$rej', '$winny', '$strata', '$miasto', '$woj')");
 
-    if ($result){
+    if ($result) {
         echo "Dane zostały pomyślnie dopisane";
-    }
-    else {
+    } else {
         echo "Nie udało się wprowadzić danych";
     }
-$conn->close();
+
+    $conn->close();
+}
 ?>
 
